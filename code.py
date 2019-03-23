@@ -10,13 +10,15 @@ class vehicle():
     capacity = 0
     doorCount = 0
 
-
+    #start the vehicle
     def start(self):
         print("Vehicle Started")
     
+    #stop the vehicle
     def stop(self):
         print("vehicle Stopped")
 
+    #set the vehicle's number of wheels
     def setNumberOFWheels(self,wheelCount):
         self.wheelCount=wheelCount
     
